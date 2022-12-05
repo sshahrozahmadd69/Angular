@@ -8,6 +8,9 @@ import { HEROES } from './mock-heroes';
   providedIn: 'root'
 })
 export class HeroService {
+  getVillian() {
+    throw new Error('Method not implemented.');
+  }
 
   constructor(private messageService: MessageService) { }
 
